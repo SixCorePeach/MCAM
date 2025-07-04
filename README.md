@@ -2,7 +2,7 @@
 This code is for our paper named multiModal causal anaysis model for Driving Video Understanding.
 And the paper has been accept in IEEE ICCV 2025.
 
-This Work is based on the swin-video-transformer and ADAPT. Thanks for them superior work, the cite is as following.
+This Work is based on the swin-video-transformer and ADAPT. And the CAM is inspired from LLCP, Thanks for them superior work, the cite is as following.
 
 @article{liu2021video,
   title={Video Swin Transformer},
@@ -18,6 +18,14 @@ _____________________________________
   year={2023}
 }
 ________________________________________
+@inproceedings{chen2024llcp,
+  title={LLCP: Learning Latent Causal Processes for Reasoning-based Video Question Answer},
+  author={Chen, Guangyi and Li, Yuke and Liu, Xiao and Li, Zijian and Al Suradi, Eman and Wei, Donglai and Zhang, Kun},
+  booktitle={ICLR},
+  year={2024}
+}
+________________________________________
+
 
 our environment setting is likely, as following.
 
