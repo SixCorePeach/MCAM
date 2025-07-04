@@ -1,5 +1,5 @@
 # MCAM
-This code is for our paper named multiModal causal anaysis model for Driving Video Understanding.
+This code is for our paper named MultiModal causal anaysis model for Driving Video Understanding.
 And the paper has been accept in IEEE ICCV 2025.
 
 This Work is based on the swin-video-transformer and ADAPT. And the CAM is inspired from LLCP, Thanks for them superior work, the cite is as following.
