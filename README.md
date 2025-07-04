@@ -1,6 +1,6 @@
 # MCAM
 This code is for our paper named multiModal causal anaysis model for Driving Video Understanding.
-And the paper has been submit to IEEE CV.
+And the paper has been accept in IEEE ICCV 2025.
 
 This Work is based on the swin-video-transformer and ADAPT. Thanks for them superior work, the cite is as following.
 
