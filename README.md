@@ -56,7 +56,7 @@ conda install -c conda-forge mpi4py openmpi
 pip install -r requirements.txt
 ```
 这里给出文件夹的分布情况
-
+``` python
 ${REPO_DIR}
 |-- checkpoints
 |-- datasets  
@@ -96,6 +96,7 @@ ${REPO_DIR}
 |-- ... 
 |-- ... 
 
+```
 
 
 We will upload our code one by one, due to the file which could not be move and adjust online.
