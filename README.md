@@ -100,3 +100,11 @@ ${REPO_DIR}
 
 
 We will upload our code one by one, due to the file which could not be move and adjust online.
+if this work could give you some help, please cite:
+
+@article{cheng2025mcam,
+  title={MCAM: Multimodal Causal Analysis Model for Ego-Vehicle-Level Driving Video Understanding},
+  author={Cheng, Tongtong and Li, Rongzhen and Xiong, Yixin and Zhang, Tao and Wang, Jing and Liu, Kai},
+  journal={arXiv preprint arXiv:2507.06072},
+  year={2025}
+}
