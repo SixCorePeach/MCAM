@@ -4,6 +4,11 @@ And the paper has been accept in ICCV 2025.
 
 <img width="1594" height="1129" alt="image" src="https://github.com/user-attachments/assets/32d56408-91c8-43cd-89d2-12ce94dbfd95" />
 
+```html
+<video width="100%" controls autoplay muted loop>
+  <source src="https://github.com/SixCorePeach/MCAM/raw/main/poster/the%20visual%20result%20of%20MCAM.mp4" type="video/mp4">
+</video>
+```
 This Work is based on the swin-video-transformer and ADAPT. And the CAM is inspired from LLCP, Thanks for them superior work, the cite is as following.
 
 @article{liu2021video,
