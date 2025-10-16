@@ -1,6 +1,6 @@
 # MCAM
 This code is for our paper named [MCAM: Multimodal Causal Analysis Model for Ego-Vehicle-Level Driving Video Understanding](https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_MCAM_Multimodal_Causal_Analysis_Model_for_Ego-Vehicle-Level_Driving_Video_Understanding_ICCV_2025_paper.pdf).
-<img src="src="https://github.com/user-attachments/assets/32d56408-91c8-43cd-89d2-12ce94dbfd95"" alt="Rocket Icon">the paper has been accept in ICCV 2025.
+<img src="src="https://github.com/user-attachments/assets/32d56408-91c8-43cd-89d2-12ce94dbfd95" alt="Rocket Icon">the paper has been accept in ICCV 2025.
 
 ```html
 <video width="100%" controls autoplay muted loop>
