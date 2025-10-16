@@ -148,6 +148,48 @@ ${REPO_DIR}
 |   |-- timm
 |   |-- utils
 ```
+在准备好上述文件之后，只需要设置好script/xxx.bash 中的内容，执行以下指令就好:
+
+```
+bash xxx.bash
+```
+
+xxx.bash 内容可以是如下:
+
+```
+#CUDA_VISIBLE_DEVICES=4,5,6,7 \
+#NCCL_P2P_DISABLE=1 \
+#OMPI_COMM_WORLD_SIZE="4" \
+#python -m torch.distributed.launch --nproc_per_node=4 --nnodes=1 --node_rank=0 --master_port=45978 src/tasks/run_adapt.py \
+CUDA_VISIBLE_DEVICES=0 \
+python src/tasks/run_MCAM.py\
+        --config src/configs/VidSwinBert/BDDX_multi_default.json \
+        --train_yaml BDDX/training_32frames.yaml \
+        --val_yaml BDDX/testing_32frames.yaml \
+        --per_gpu_train_batch_size 16\
+        --per_gpu_eval_batch_size 16 \
+        --num_train_epochs 40 \
+        --learning_rate 0.0002 \
+        --max_num_frames 32 \
+        --pretrained_2d 0 \
+        --backbone_coef_lr 0.05 \
+        --mask_prob 0.5 \
+        --max_masked_token 45 \
+        --zero_opt_stage 1 \
+        --mixed_precision_method deepspeed \
+        --deepspeed_fp16 \
+        --gradient_accumulation_steps 4 \
+        --learn_mask_enabled \
+        --loss_sparse_w 0.1 \
+        --use_sep_cap \
+        --multitask \
+        --signal_types course speed \
+        --loss_sensor_w 0.05 \
+        --max_grad_norm 1 \
+        --output_dir ./output/multitask/sensor_course_speed/MCAM/
+```
+
+
 We will upload our code one by one, due to the file which could not be move and adjust online.
 if this work could give you some help, please cite:
 ```
