@@ -1,8 +1,6 @@
 # MCAM
-This code is for our paper named MultiModal causal anaysis model for Driving Video Understanding.
-And the paper has been accept in ICCV 2025.
-
-<img width="1594" height="1129" alt="image" src="https://github.com/user-attachments/assets/32d56408-91c8-43cd-89d2-12ce94dbfd95" />
+This code is for our paper named [MCAM: Multimodal Causal Analysis Model for Ego-Vehicle-Level Driving Video Understanding](https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_MCAM_Multimodal_Causal_Analysis_Model_for_Ego-Vehicle-Level_Driving_Video_Understanding_ICCV_2025_paper.pdf).
+<img src="src="https://github.com/user-attachments/assets/32d56408-91c8-43cd-89d2-12ce94dbfd95"" alt="Rocket Icon">the paper has been accept in ICCV 2025.
 
 ```html
 <video width="100%" controls autoplay muted loop>
@@ -109,9 +107,11 @@ ${REPO_DIR}
 We will upload our code one by one, due to the file which could not be move and adjust online.
 if this work could give you some help, please cite:
 
-@article{cheng2025mcam,
-  title={MCAM: Multimodal Causal Analysis Model for Ego-Vehicle-Level Driving Video Understanding},
-  author={Cheng, Tongtong and Li, Rongzhen and Xiong, Yixin and Zhang, Tao and Wang, Jing and Liu, Kai},
-  journal={arXiv preprint arXiv:2507.06072},
-  year={2025}
+@InProceedings{Cheng_2025_ICCV,
+    author    = {Cheng, Tongtong and Li, Rongzhen and Xiong, Yixin and Zhang, Tao and Wang, Jing and Liu, Kai},
+    title     = {MCAM: Multimodal Causal Analysis Model for Ego-Vehicle-Level Driving Video Understanding},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {5479-5489}
 }
