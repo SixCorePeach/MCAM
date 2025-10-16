@@ -103,7 +103,51 @@ ${REPO_DIR}
 
 ```
 
-
+ 由于项目中还用到了CoVLA数据集，这里也给出相应的文件分布，大同小异
+ ```
+|-- dataset
+|   |-- frame_tsv
+|   |-- captions_BDDX.json
+|   |-- training_32frames_caption_coco_format.json
+|   |-- training_32frames.yaml
+|   |-- training.caption.lineidx
+|   |-- training.caption.lineidx.8b
+|   |-- training.caption.linelist.tsv
+|   |-- training.caption.tsv
+|   |-- training.img.lineidx
+|   |-- training.img.lineidx.8b
+|   |-- training.img.tsv
+|   |-- training.label.lineidx
+|   |-- training.label.lineidx.8b
+|   |-- training.label.tsv
+|   |-- training.linelist.lineidx
+|   |-- training.linelist.lineidx.8b
+|   |-- training.linelist.tsv
+|   |-- validation...
+|   |-- ...
+|   |-- validation...
+|   |-- testing...
+|   |-- ...
+|   |-- testing...
+|-- models
+|-- output
+|-- readme.md
+|-- scripts
+|   |-- CoVLA_adapt_caption.sh  CoVLA_only_caption.sh  other_scripts
+|-- src
+|   |-- configs
+|   |-- datasets
+|   |-- evalcap
+|   |-- layers
+|   |-- modeling
+|   |-- prepro
+|   |-- pytorch_grad_cam
+|   |-- solver
+|   |-- tags
+|   |-- tasks
+|   |-- timm
+|   |-- utils
+```
 We will upload our code one by one, due to the file which could not be move and adjust online.
 if this work could give you some help, please cite:
 ```
