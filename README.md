@@ -9,27 +9,26 @@ This code is for our paper named [MCAM: Multimodal Causal Analysis Model for Ego
 </video>
 ```
 This Work is based on the swin-video-transformer and ADAPT. And the CAM is inspired from LLCP, Thanks for them superior work, the cite is as following.
-
+```
 @article{liu2021video,
   title={Video Swin Transformer},
   author={Liu, Ze and Ning, Jia and Cao, Yue and Wei, Yixuan and Zhang, Zheng and Lin, Stephen and Hu, Han},
   journal={arXiv preprint arXiv:2106.13230},
   year={2021}
 }
-_____________________________________
 @article{jin2023adapt,
   title={ADAPT: Action-aware Driving Caption Transformer},
   author={Jin, Bu and Liu, Xinyu and Zheng, Yupeng and Li, Pengfei and Zhao, Hao and Zhang, Tong and Zheng, Yuhang and Zhou, Guyue and Liu, Jingjing},
   journal={arXiv preprint arXiv:2302.00673},
   year={2023}
 }
-________________________________________
 @inproceedings{chen2024llcp,
   title={LLCP: Learning Latent Causal Processes for Reasoning-based Video Question Answer},
   author={Chen, Guangyi and Li, Yuke and Liu, Xiao and Li, Zijian and Al Suradi, Eman and Wei, Donglai and Zhang, Kun},
   booktitle={ICLR},
   year={2024}
 }
+```
 ________________________________________
 
 
@@ -107,7 +106,7 @@ ${REPO_DIR}
 
 We will upload our code one by one, due to the file which could not be move and adjust online.
 if this work could give you some help, please cite:
-
+```
 @InProceedings{Cheng_2025_ICCV,
     author    = {Cheng, Tongtong and Li, Rongzhen and Xiong, Yixin and Zhang, Tao and Wang, Jing and Liu, Kai},
     title     = {MCAM: Multimodal Causal Analysis Model for Ego-Vehicle-Level Driving Video Understanding},
@@ -116,3 +115,4 @@ if this work could give you some help, please cite:
     year      = {2025},
     pages     = {5479-5489}
 }
+```
